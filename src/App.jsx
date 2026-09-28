@@ -2,19 +2,19 @@ import { useState } from "react";
 
 const memories = [
   {
-    src: "/memories/photo1.jpg",
+    src: `${import.meta.env.BASE_URL}memories/photo1.jpg`,
     alt: "i'm love you",
     caption: "i'm love you",
     className: "memory-card memory-one",
   },
   {
-    src: "/memories/photo2.gif",
+    src: `${import.meta.env.BASE_URL}memories/photo2.gif`,
     alt: "love you",
     caption: "love you",
     className: "memory-card memory-two",
   },
   {
-    src: "/memories/photo3.jpg",
+    src: `${import.meta.env.BASE_URL}memories/photo3.jpg`,
     alt: "us, always",
     caption: "us, always",
     className: "memory-card memory-three",
